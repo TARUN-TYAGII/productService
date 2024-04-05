@@ -52,7 +52,12 @@
             <artifactId>spring-web</artifactId>
             <version>6.1.5</version>
         </dependency>
-    </dependencies>
+		<dependency>
+			<artifactId>ProductService</artifactId>
+			<groupId>com.example</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
