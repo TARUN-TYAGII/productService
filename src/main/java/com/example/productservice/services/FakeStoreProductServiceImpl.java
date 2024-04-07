@@ -30,7 +30,7 @@ public class FakeStoreProductServiceImpl implements ProductService{
 
         Category category = new Category();
         category.setTitle(fakeStoreProductDto.getCategory());
-        product.setCategory(category);
+//        product.setCategory(category);
         product.setImage(fakeStoreProductDto.getImage());
 
         return product;
